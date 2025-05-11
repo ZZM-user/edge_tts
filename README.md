@@ -20,5 +20,13 @@
 
 ## 🛠 安装与使用
 
-### 安装依赖
+### 安装
+
+- 通过Dify Marketplace安装
+- 通过github安装
+
+### 使用
+
+自行前往Azure获取一套密钥和区域(`speech_key`、`service_region`)，有免费版
+
 
