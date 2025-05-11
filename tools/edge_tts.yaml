@@ -4,12 +4,12 @@ identity:
   label:
     en_US: text to voice
     zh_Hans: text to voice
-    pt_BR: text to voice
+    pt_BR: Texto para voz
 description:
   human:
     en_US: text to voice
     zh_Hans: text to voice
-    pt_BR: text to voice
+    pt_BR: Texto para voz
   llm: text to voice
 parameters: # 定义工具的输入参数列表
  - name: text # 转语音文字

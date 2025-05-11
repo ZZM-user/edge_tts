@@ -8,7 +8,7 @@ identity:
   description:
     en_US: A speech synthesis tool based on edge tts
     zh_Hans: 一个基于edge tts的语音合成工具
-    pt_BR: A speech synthesis tool based on edge tts
+    pt_BR: Uma ferramenta de síntese de fala baseada no Edge TTS
   icon: icon.svg
 credentials_for_provider:
     speech_key: # 这是凭证的内部名称，将在 Python 代码中使用
