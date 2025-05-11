@@ -29,4 +29,5 @@
 
 自行前往Azure获取一套密钥和区域(`speech_key`、`service_region`)，有免费版
 
-
+然后可以在语音库中挑选适合自己的模型，后续使用
+语音库：https://speech.azure.cn/portal/voicegallery
