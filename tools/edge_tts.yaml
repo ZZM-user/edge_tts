@@ -1,0 +1,38 @@
+identity:
+  name: text_to_voice
+  author: zzm_t
+  label:
+    en_US: text to voice
+    zh_Hans: text to voice
+    pt_BR: text to voice
+description:
+  human:
+    en_US: text to voice
+    zh_Hans: text to voice
+    pt_BR: text to voice
+  llm: text to voice
+parameters: # 定义工具的输入参数列表
+ - name: text # 转语音文字
+   type: string # 参数类型
+   required: true # 是否必需
+   label: # 在 Dify UI 中显示的参数标签 (多语言)
+       en_US: text
+       zh_Hans: 文本
+   human_description: # 给人类用户看的参数描述 (多语言)
+       en_US: Text content of the to-be-replaced speech.
+       zh_Hans: 待转语音的文字内容。
+   form: llm
+ - name: voice_name # 语音模型
+   type: string # 参数类型
+   required: true # 是否必需
+   label: # 在 Dify UI 中显示的参数标签 (多语言)
+       en_US: voice_name
+       zh_Hans: 语音模型
+   human_description: # 给人类用户看的参数描述 (多语言)
+       en_US: voice name(https://speech.azure.cn/portal/voicegallery)
+       zh_Hans: 语音模型(详见https://speech.azure.cn/portal/voicegallery)
+   form: form
+
+extra:
+  python:
+    source: tools/edge_tts.py

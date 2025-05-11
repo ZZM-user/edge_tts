@@ -1,0 +1,10 @@
+[project]
+name = "Edge-tts"
+version = "0.1.0"
+description = "use edge tts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-cognitiveservices-speech>=1.43.0",
+    "dify-plugin>=0.2.2",
+]
