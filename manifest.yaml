@@ -8,10 +8,10 @@ label:
   zh_Hans: edge_tts
   pt_BR: edge_tts
 description:
-  en_US: use edge tts
-  ja_JP: use edge tts
-  zh_Hans: use edge tts
-  pt_BR: use edge tts
+  en_US: "Leverage the power of Edge TTS to convert text into high-quality, natural-sounding speech in multiple languages."
+  ja_JP: "Microsoft Edge TTS を利用して、テキストを高品質で自然な音声に変換します。多言語に対応しています。"
+  zh_Hans: "利用微软 Edge TTS 将文本转换为高质量、自然流畅的语音，支持多种语言。"
+  pt_BR: "Aproveite o poder do Edge TTS para converter texto em fala de alta qualidade e natural, em vários idiomas."
 icon: icon.svg
 tags: ['productivity','utilities']
 resource:
