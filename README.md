@@ -1,43 +1,47 @@
-# 🎧 Dify Edge-TTS 插件
+# 🎧 Dify Edge-TTS Plugin
 
-> ⚡️ 为你的 Dify 智能体赋予真实、生动、多语种的语音合成功能 —— 基于微软 Edge TTS 引擎。
+> ⚡️ Empower your Dify agent with realistic, expressive, and multilingual speech synthesis — powered by Microsoft Edge
+> TTS.
 
-## 🚀 插件简介
+## 🚀 Plugin Overview
 
-**Dify Edge-TTS 插件** 通过集成微软的 Edge TTS 引擎，让文本转化为自然流畅的语音。无论是小说播讲、短视频配音，还是为无障碍应用提供语音支持，它都能胜任。
+The **Dify Edge-TTS Plugin** integrates Microsoft's Edge TTS engine to convert text into natural, fluent speech. Whether
+you're narrating novels, dubbing short videos, or enabling accessibility in applications, this plugin is built to handle
+it all.
 
-### 🔊 插件特性
+### 🔊 Key Features
 
-- 支持 **100+ 神经网络语音模型**
-- 覆盖 **45+ 种语言和地区**
-- 支持设置语速、语调、音频格式（如 `wav`）等参数
+- Supports **100+ neural voice models**
+- Covers **45+ languages and regions**
+- Allows customization of speaking rate, pitch, audio format (e.g., `wav`), and more
 
-## 🧩 适用场景
+## 🧩 Use Cases
 
-- 小说 / 剧情类短视频自动配音
-- 聊天 / 问答智能体语音输出
-- 教育、语言学习、阅读辅助
-- 无障碍设备语音提示
-- 内容创作流程自动化
+- Auto voice-over for novel/story-based short videos
+- Voice responses for chat and Q&A agents
+- Educational tools, language learning, and reading assistance
+- Voice prompts in accessibility devices
+- Automated voice generation in content workflows
 
-## 🛠 安装与配置
+## 🛠 Installation & Configuration
 
-### 📦 安装方式
+### 📦 Installation Methods
 
-你可以通过以下两种方式安装本插件：
+You can install this plugin in two ways:
 
-1. **通过 Dify Marketplace 安装**（推荐）
-2. **手动安装**：
-    - 克隆本仓库或下载 `.difypkg` 文件
-    - 上传到你的 Dify 实例中进行本地安装
+1. **Via Dify Marketplace** (Recommended)
+2. **Manual Installation**:
+    - Clone this repository or download the `.difypkg` file
+    - Upload it to your local Dify instance for installation
 
-### 🔐 前置准备：获取 API 密钥
+### 🔐 Prerequisite: Get Your API Credentials
 
-前往 Microsoft Azure 语音服务平台申请免费 TTS 服务，并获取以下信息：
+To use this plugin, you need to obtain a free TTS service key from Microsoft Azure Speech Services. You will need the
+following:
 
-- `speech_key`（你的 Azure TTS API Key）
-- `service_region`（如：`eastasia`、`westeurope` 等）
+- `speech_key` (Your Azure TTS API Key)
+- `service_region` (e.g., `eastasia`, `westeurope`, etc.)
 
-👉 [Azure TTS 控制台](https://speech.azure.cn/portal/voicegallery)
+👉 [Azure TTS Voice Gallery Console](https://speech.azure.cn/portal/voicegallery)
 
-> ⚠️ 需使用中国区语音服务请切换至 Azure 中国站点。
+> ⚠️ If you’re using Azure China, please make sure to switch to the China-specific Azure site.
